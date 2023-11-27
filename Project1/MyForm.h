@@ -233,7 +233,7 @@ namespace Project1 {
 				static_cast<System::Byte>(204)));
 			this->label1->ForeColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->label1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"label1.Image")));
-			this->label1->Location = System::Drawing::Point(-1, 366);
+			this->label1->Location = System::Drawing::Point(2, 373);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(238, 87);
 			this->label1->TabIndex = 9;
@@ -442,10 +442,5 @@ private: System::Void button10_Click(System::Object^ sender, System::EventArgs^ 
 		
 
 }
-//private: System::Void MyForm_KeyDown(System::Object^ sender, System::Windows::Forms::KeyEventArgs^ e) {
-//	if (e->KeyCode.ToString() == "Q")
-//		button1->Text = player;
-//	}
-
 };
 }
